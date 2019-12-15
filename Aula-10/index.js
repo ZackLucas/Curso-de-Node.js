@@ -9,7 +9,7 @@ const Sequelize  = require('sequelize');
     app.engine('handlebars', handlebars({defaluLayout: 'main'}));
     app.set('view engine', 'handlebars');
   // Conexão com o banco de dados MySQL
-    const sequelize  = new Sequelize('sistemadecadastro', 'root', 'Lo47810144', {
+    const sequelize  = new Sequelize('sistemadecadastro', 'root', '', {
       host     : 'localhost',
       dialect  : 'mysql'
     });
